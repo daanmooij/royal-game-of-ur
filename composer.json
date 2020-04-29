@@ -1,0 +1,29 @@
+{
+    "name": "daanmooij/royal-game-of-ur",
+    "authors": [
+        {
+            "name": "Daan Mooij",
+            "email": "daanmooij@gmail.com"
+        },
+        {
+            "name": "Coen Mooij",
+            "email": "coenmooij@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DaanMooij\\RoyalGameOfUr\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DaanMooij\\RoyalGameOfUr\\": "tests/"
+        }
+    }
+}
